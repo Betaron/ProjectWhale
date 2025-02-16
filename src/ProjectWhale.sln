@@ -10,6 +10,18 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		.editorconfig = .editorconfig
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{701412F4-7C88-41F0-A035-8AB9B2332F73}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{F446F27F-3139-428C-9ECA-8FFCC96C3769}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Schema", "Database\Schema\Schema.csproj", "{C7F56E45-E678-4BC2-A81F-223AFAA00C8F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{9AD6E042-8746-4BB7-A97B-1284BFC24C45}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{C3C31EC4-C908-4B5F-AA04-F6CF07784998}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserConnectorService", "UserConnectorService\UserConnectorService.csproj", "{62051126-2F0B-40E4-ACEB-88A041F504B0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,8 +32,22 @@ Global
 		{70B68C63-AEE7-4EF3-8E58-C374163C1B4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{70B68C63-AEE7-4EF3-8E58-C374163C1B4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{70B68C63-AEE7-4EF3-8E58-C374163C1B4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7F56E45-E678-4BC2-A81F-223AFAA00C8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7F56E45-E678-4BC2-A81F-223AFAA00C8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7F56E45-E678-4BC2-A81F-223AFAA00C8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7F56E45-E678-4BC2-A81F-223AFAA00C8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62051126-2F0B-40E4-ACEB-88A041F504B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62051126-2F0B-40E4-ACEB-88A041F504B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62051126-2F0B-40E4-ACEB-88A041F504B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62051126-2F0B-40E4-ACEB-88A041F504B0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{70B68C63-AEE7-4EF3-8E58-C374163C1B4D} = {701412F4-7C88-41F0-A035-8AB9B2332F73}
+		{C7F56E45-E678-4BC2-A81F-223AFAA00C8F} = {F446F27F-3139-428C-9ECA-8FFCC96C3769}
+		{C3C31EC4-C908-4B5F-AA04-F6CF07784998} = {9AD6E042-8746-4BB7-A97B-1284BFC24C45}
+		{62051126-2F0B-40E4-ACEB-88A041F504B0} = {C3C31EC4-C908-4B5F-AA04-F6CF07784998}
 	EndGlobalSection
 EndGlobal
